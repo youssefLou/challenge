@@ -1,5 +1,9 @@
 function Terms() {
-  return <div>Terms</div>;
+  return (
+    <>
+      <h1> Terms</h1>
+    </>
+  );
 }
 
 export default Terms;
