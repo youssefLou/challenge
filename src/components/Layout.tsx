@@ -1,23 +1,23 @@
-import png from "./assets/png1.png";
+import png from "../assets/png1.png";
 export const Layout = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
       <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
-        <div className="relative">
-          <h1 className="font-bold text-5xl">
-            The <span className="text-blue-400"> 7 Success Pillars </span>
+        <div className="relative ">
+          <h1 className="font-bold text-5xl place-content-center">
+            The <span className="text-blue-400  "> 7 Success Pillars </span>
           </h1>
           <p className="font-medium text-lg">
             My 7 Day Challenge walks you through how to go from zero to LIVE in
             just 7 days.
           </p>
-          <img className="h-auto w-auto" src={png} />
+          <img className="h-auto w-auto " src={png} />
         </div>
         <div className="lg:py-6 lg:pr-16">
           <div className="flex py-10">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
                     className="w-4 text-gray-600"
                     stroke="currentColor"
@@ -56,7 +56,7 @@ export const Layout = () => {
           <div className="flex py-10">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
                     className="w-4 text-gray-600"
                     stroke="currentColor"
@@ -95,7 +95,7 @@ export const Layout = () => {
           <div className="flex py-10">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
                     className="w-4 text-gray-600"
                     stroke="currentColor"
@@ -124,7 +124,7 @@ export const Layout = () => {
             </div>
             <div className="pt-1 pb-8">
               <p className="mb-2 text-lg font-black text-blue-500">DAY 3</p>
-              <p className="font-bold text-xl">Building Your Store</p>
+              <p className="font-bold text-xl ">Building Your Store</p>
               <p className=" font-medium">
                 Jordan shows you live examples of stores he's built and breaks
                 down the elements of them to help you build your own.
@@ -134,7 +134,7 @@ export const Layout = () => {
           <div className="flex py-10">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
                     className="w-4 text-gray-600"
                     stroke="currentColor"
@@ -173,7 +173,7 @@ export const Layout = () => {
           <div className="flex py-10">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
                     className="w-4 text-gray-600"
                     stroke="currentColor"
@@ -213,9 +213,9 @@ export const Layout = () => {
           <div className="flex py-10">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
-                    className="w-4 text-gray-600"
+                    className="w-4 text-gray-600 "
                     stroke="currentColor"
                     strokeWidth="2"
                     strokeLinecap="round"
@@ -252,7 +252,7 @@ export const Layout = () => {
           <div className="flex py-10">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
                     className="w-4 text-gray-600"
                     stroke="currentColor"
@@ -288,10 +288,10 @@ export const Layout = () => {
               </p>
             </div>
           </div>
-          <div className="flex py-10">
+          <div className="flex ">
             <div className="flex flex-col items-center mr-4">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 border rounded-full animate-bounce">
                   <svg
                     className="w-6 text-gray-600"
                     stroke="currentColor"
