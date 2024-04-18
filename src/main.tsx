@@ -9,19 +9,19 @@ import Terms from "./components/Terms.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/Challenge/",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: "/Challenge/",
+        path: "/",
         element: <Home />,
       },
       {
-        path: "/Challenge/privacy",
+        path: "/privacy",
         element: <Privacy />,
       },
       {
-        path: "/Challenge/terms",
+        path: "/terms",
         element: <Terms />,
       },
     ],
